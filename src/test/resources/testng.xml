@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Selenium test" verbose="1">
+
+    <test name="All">
+        <packages>
+            <package name="com.test.*"/>
+        </packages>
+    </test>
+
+</suite>
